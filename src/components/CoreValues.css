@@ -1,0 +1,38 @@
+.title-wrapper {
+    color: white;
+    /* border-bottom: 2px solid white; */
+    font-size: 25px;
+    font-weight: 600;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.info-wrapper {
+    margin-bottom: 100px;
+}
+
+.values {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.value-name {
+    color: white;
+    font-weight: 700;
+    margin: 10px 5px 10px;
+
+}
+
+.value-description {
+    color: white;
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+}

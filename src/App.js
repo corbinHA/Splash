@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import Links from './components/Links'
+import Misson from './components/Misson'
+import Vision from './components/Vision'
+import CoreValues from './components/CoreValues'
+import logo from './images/PirateLogo.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="image-background">
+        <img src={logo} alt="Grover logo" />
+      </div>
+      <div className="info">
+        <Links />
+        <div className="statements">
+          <div className="mission-vision">
+            <Misson />
+            <Vision />
+          </div>
+          <CoreValues />
+        </div>
+      </div>
     </div>
   );
 }
